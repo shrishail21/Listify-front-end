@@ -109,7 +109,7 @@ export default function Registration() {
                             setFirstName(e.target.value)
                         }}/><br />
                     </div>
-                    <div className=''>
+                    <div className='md:px-5'>
                         <span className='font-semibold'>Last Name :</span><br />
                         <input type="text" className='border-2 border-gray-300 px-4 py-1 rounded-lg'  onChange={(e)=>{
                             setLastName(e.target.value)}}/><br />
