@@ -44,7 +44,7 @@ console.log(filterLocation)
   return (
     <>
         {/* navbar start's here */}
-        <nav className='w-full h-14 flex justify-between bg-gray-200 items-center px-5 py-10 font-semibold sticky top-0 ' >
+        <nav className='w-full h-14 flex justify-between bg-gray-200 items-center px-3 py-10 font-semibold sticky top-0 ' >
 
            <div className="flex items-center ">
             <div className='pr-3'>

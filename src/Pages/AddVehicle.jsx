@@ -35,35 +35,35 @@ export default function AddVehicle() {
           <div>
             <div className='pb-5'>
                 <span>Brand Name :</span><br />
-                <input type="text" className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                <input type="text" className='border-2 border-gray-300 md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                   setBrand(e.target.value)
                 }}/> <br />
             </div>
 
             <div className='pb-5'>
                 <span>Model Name :</span><br />
-                <input type="text" className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                <input type="text" className='border-2 border-gray-300 md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                   setModelName(e.target.value)
                 }}/> <br />
             </div>
 
             <div className='pb-5'>
                 <span>Manufacture Date :</span><br />
-                <input type="date" className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                <input type="date"  className='border-2 border-gray-300 w-[100%] md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                   setManufactureDate(e.target.value)
                 }} /> <br />
             </div>
 
             <div className='pb-5'>
                 <span>Purchase Date :</span><br />
-                <input type="date" className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                <input type="date" className='border-2 border-gray-300 w-[100%] md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                   setPurchaseDate(e.target.value)
                 }} /> <br />
             </div>
 
             <div className='pb-5'>
                 <span>Vehicle Type :</span><br />
-                <select className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                <select className='border-2 border-gray-300 w-[100%] md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                   setVehicleType(e.target.value)
                 }}> 
                   <option value="Bike" selected>Bike</option>
@@ -73,7 +73,7 @@ export default function AddVehicle() {
 
             <div className='pb-5'>
                 <span>Fuel Type :</span><br />
-                <select className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                <select className='border-2 border-gray-300 w-[100%] md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                   setFuelType(e.target.value)
                 }}>  
                   <option value="Petrol">Petrol</option>

@@ -34,7 +34,7 @@ export default function useAddProduct() {
 
                     <div className='pb-5'>
                         <span>Add Product Title :</span><br />
-                        <input type="text" className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                        <input type="text" className='border-2 border-gray-300 md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                             setProductTitle(e.target.value)
                         }}/> <br />
                     </div>
@@ -42,14 +42,14 @@ export default function useAddProduct() {
             
                     <div className='pb-5'>
                         <span className=''>Description :</span> <br />
-                        <textarea name="" className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg'  required onChange={(e)=>{
+                        <textarea name="" className='border-2 border-gray-300 w-[100%] md:w-[28rem] px-4 py-1 rounded-lg'  required onChange={(e)=>{
                             setProductDescription(e.target.value)
                         }}></textarea><br />
                     </div>
     
                     <div className='pb-10'>
                         <span className='font-semibold'>Set A Price :</span> <br />
-                        <input type="text" className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                        <input type="text" className='border-2 border-gray-300 md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                             setPrice(e.target.value)
                         }} /> <br />
                     </div>
@@ -108,7 +108,7 @@ export default function useAddProduct() {
             
                     <div className='pb-5'>
                             <h3 className="add-product-h3">SELECT YOUR LOCATION</h3>
-                            <select id="states" name="states" className="border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg" required onChange={(e)=>{
+                            <select id="states" name="states" className="border-2 border-gray-300 w-[100%] md:w-[28rem] px-4 py-1 rounded-lg" required onChange={(e)=>{
                                 setLocation(e.target.value)
                             }}>
                                 <option value="Andhra Pradesh">Andhra Pradesh</option>

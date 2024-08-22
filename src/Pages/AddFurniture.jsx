@@ -32,20 +32,20 @@ export default function AddFurniture() {
           <div>
             <div className='pb-5'>
                 <span>Brand Name :</span><br />
-                <input type="text" className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                <input type="text" className='border-2 border-gray-300  md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                   setManufaturer(e.target.value)
                 }}/> <br />
             </div>
             <div className='pb-5'>
                 <span>Year Of Purchase :</span><br />
-                <input type="date" className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                <input type="date" className='border-2 border-gray-300 w-[100%] md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                   setYearOfPurchase(e.target.value)
                 }} /> <br />
             </div>
 
             <div className='pb-5'>
                 <span>type Of Furniture :</span><br />
-                <select className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                <select className='border-2 border-gray-300 w-[100%] md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                   setTypeOfFurniture(e.target.value)
                 }}>  
                   <option value="Good" selected>Good</option>

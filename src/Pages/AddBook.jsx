@@ -32,20 +32,20 @@ export default function AddBook() {
           <div>
             <div className='pb-5'>
                 <span>Author's Name :</span><br />
-                <input type="text" className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                <input type="text" className='border-2 border-gray-300 md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                   setAuthor(e.target.value)
                 }}/> <br />
             </div>
             <div className='pb-5'>
                 <span>Year Of Publication :</span><br />
-                <input type="date" className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                <input type="date" className='border-2 border-gray-300 w-[100%] md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                   setYearOfPublication(e.target.value)
                 }} /> <br />
             </div>
 
             <div className='pb-5'>
                 <span>Condition Of Book :</span><br />
-                <select className='border-2 border-gray-300 w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
+                <select className='border-2 border-gray-300 w-[100%] md:w-[28rem] px-4 py-1 rounded-lg' required onChange={(e)=>{
                   setCondition(e.target.value)
                 }}>  
                   <option value="Good" selected>Good</option>
