@@ -1,5 +1,5 @@
 const config={
-    url:'https://myapp1-latest.onrender.com/'
+    url:'https://listify-backend-1.onrender.com/'
 }
 
 export default config
